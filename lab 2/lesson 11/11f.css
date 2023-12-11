@@ -1,0 +1,38 @@
+.parent{
+    display: flex;
+    align-items: center;
+    background-color: #563d7c;
+    text-transform: capitalize;
+}
+.parent div{
+    padding: 10px;
+}
+.parent div:nth-child(1){
+    width: 25%;
+}
+.parent div:nth-child(2){
+    width: 50%;
+}
+.parent div:nth-child(3){
+    text-align: right;
+    width: 25%;
+}
+input{
+    width: 100%;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px;
+}
+p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+button{
+    background: none;
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}

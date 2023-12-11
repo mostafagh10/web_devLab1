@@ -1,0 +1,9 @@
+.parent div{
+    background-color: pink;
+
+}
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px 20px;
+}

@@ -1,0 +1,11 @@
+.parent{
+    display: flex;
+}
+.parent div:nth-child(1){
+    background-color: aqua;
+    width: 200px;
+}
+.parent div:nth-child(2){
+    background-color: pink;
+    width: 75px;
+}

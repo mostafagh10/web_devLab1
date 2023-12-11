@@ -1,0 +1,11 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    height: 200px;
+    align-items:center;
+}
+.parent div{
+    background-color: pink;
+    height: 20%;
+}

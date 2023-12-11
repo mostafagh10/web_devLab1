@@ -1,0 +1,19 @@
+.super{
+    display: flex;
+    height: 150px;
+}
+.parent1{
+    width: 100px;
+    background-color: pink;
+}
+.parent2{
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parent2 div{
+    background-color: black;
+    color: white;
+}

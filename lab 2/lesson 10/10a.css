@@ -1,0 +1,10 @@
+.parent div:nth-child(1){
+    background-color: pink;
+}
+.parent div:nth-child(2){
+    background-color: aqua;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}

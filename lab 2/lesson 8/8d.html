@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>8d</title>
+        <style>
+            .parent{
+                width: 500px;
+            }     
+            .parent input,button{
+                width: 100%;
+            }
+            .child input{
+                float: left;
+                width: 48%;
+            }
+            .child input:nth-child(1){
+                margin-right: 10px;
+            }
+            .child input:nth-child(2){
+                margin-left: 10px;
+            }
+            input{
+                height: 50px;
+                padding: 10px;
+                font-size: 20px;
+                margin-bottom:10px;
+                border: 1px solid gray;
+                border-radius: 10px;
+            }
+            button{
+                background-color: rgb(8, 94, 206);
+                color: white;
+                text-align: center;
+                font-size: 25px;
+                border:0px;
+                border-radius: 15px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+        <div class="child">
+            <input placeholder="first name"/>
+            <input placeholder="last name"/>
+        </div>
+        <input placeholder="email" />
+        <button>sign up</button>
+        </div>
+    </body>
+</html>
