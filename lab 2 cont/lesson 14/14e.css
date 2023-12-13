@@ -1,0 +1,23 @@
+*{
+    height: 3000px;
+}
+.parent{
+    width: 600px;
+    height: 600px;
+    background-image: url('./shirt.jpg');
+    background-size: cover;
+    position: relative;
+    left: 25%;
+    
+}
+.child{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}

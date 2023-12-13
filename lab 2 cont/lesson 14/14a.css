@@ -1,0 +1,15 @@
+*{
+    height: 3000px;
+}
+div{
+    width: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

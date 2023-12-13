@@ -1,0 +1,12 @@
+*{
+    height: 3000px;
+}
+.one{
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    position: sticky;
+    top: 580px;
+    float: right;
+}

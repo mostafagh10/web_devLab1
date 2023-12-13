@@ -1,0 +1,7 @@
+.side{
+    width: 100px;
+    float: right;
+    height: 100%;
+    background-color: green;
+    color: white;
+}
